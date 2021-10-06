@@ -1,0 +1,1 @@
+$accordion-color: black;
