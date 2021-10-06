@@ -1,1 +1,1 @@
-Site para gerenciar cardapio de restaurante a partir de qrcode
+Cardapio para restaurante, utilizando qr code
