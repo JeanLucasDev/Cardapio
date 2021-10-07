@@ -8,11 +8,18 @@
 }
 
 
+img{
+    position:relative;
+    max-width: 40%;
+    height: 200px;
+}
 
 body{
     background-image: url(https://ak.picdn.net/shutterstock/videos/22118923/thumb/1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    image-resolution:inherit;
+
 }
 
 
@@ -22,19 +29,26 @@ body{
     size:auto;
     display:flex;
     align-items: center;
-    background-color:black;
+    background-color:#111;
     height: 80px;
 }
+
+.cabeçalho a{
+    text-decoration:none;
+    color: #fff;
+    margin-left:20px;
+}
+.cabeçalho a:hover{
+    color:red;
+}
+
+
 
 .cabeçalho img{
     height: 100px;
 }
 
 
-.cabeçalho h3{
-    color:#fff;
-    margin-left:20px;
-}
 
 
 
@@ -44,7 +58,7 @@ body{
 .cardapio{
     color:black;
     text-align: center;
-    margin-top:50px;
+    margin-top:200px;
 }
 
 .cardapio img{
@@ -70,14 +84,10 @@ main .cardapio .accordion .accordion-item{
     border-radius: 10%;
 }
 
-.Images .carousel-inner .carousel-item{
-    text-align:center;
-}
-
-.Images .carousel-inner .carousel-item .table{
-    padding-left:100px;
-    width: 900px;
-    height: 300px;
+.carousel-inner > .item > img {
+    position: relative;
+    min-width: 100%;
+    height: 200px; 
 }
 
 
@@ -85,6 +95,7 @@ main .cardapio .accordion .accordion-item{
 /* Footer */
 
 footer{
+    margin-top:200px;
     background-color: #111;
     color: #fff;
     font-size: 1rem;
@@ -144,6 +155,8 @@ footer .container .row .col-md-4 .quick_links a:hover{
     color: #e1e1e199;
 }
 
-
+.quick_links img{
+   max-width: 100%;
+}
 
 
