@@ -30,7 +30,7 @@
             <div class="accordion" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" onClick="document.getElementById('flush-collapseOne').scrollIntoView();">
                     Hambúrgueres
                   </button>
                 </h2>
@@ -112,69 +112,13 @@
                   </table>
                 </div>
               </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Bebidas
-                  </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    <div class="Images">
-                      <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active" data-bs-interval="10000">
-                            <img class="img-fluid" src="img/Bebidas/Lata.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item" data-bs-interval="2000">
-                            <img class="img-fluid" src="img/Bebidas/Litro.jpg" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                    </div>
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th scope="col">#</th>
-                          <th scope="col">Bebida</th>
-                          <th scope="col"></th>
-                          <th scope="col">$</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>Refri Lata 350ml</td>
-                          <td></td>
-                          <td>4,00</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>Refri 1L</td>
-                          <td></td>
-                          <td>7,00</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                     Salgados
                   </button>
                 </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample" >
                   <div class="accordion-body">
                     <div class="Images">
                       <div id="carouselExampleInterval3" class="carousel slide" data-bs-ride="carousel">
@@ -250,6 +194,61 @@
                 </div>
               </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Bebidas
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="Images">
+                    <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <img class="img-fluid" src="img/Bebidas/Lata.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <img class="img-fluid" src="img/Bebidas/Litro.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Bebida</th>
+                        <th scope="col"></th>
+                        <th scope="col">$</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Refri Lata 350ml</td>
+                        <td></td>
+                        <td>4,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Refri 1L</td>
+                        <td></td>
+                        <td>7,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
             </div>
         </main>
         <footer>
@@ -261,13 +260,12 @@
                         <p> Estamos em funcionamento de Segunda a Domingo </p>
                         <p> A partir das 17h até as 22h </p>
                         <div class="social_midia">
-                          <a href=""><i class="fas fa-instagram"></i></a>  
+                          <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a> 
                           <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a> 
                           <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="text-center"></h4>
                         <div class="quick_links">
                             <ul>
                               <img src="img/Icon/Icon.png">
